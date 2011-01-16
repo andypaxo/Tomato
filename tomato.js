@@ -2,10 +2,13 @@ function Timer() {
 }
 
 Timer.prototype = {
+	timeRemaining: 0,
+
 	startTimer: function(time) {
 	},
 	
 	voidTimer: function() {
+		this.timeRemaining = 0;
 	}
 }
 
